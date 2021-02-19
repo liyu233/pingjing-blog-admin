@@ -20,6 +20,6 @@ spring:
     url: jdbc:mysql://106.14.219.136:3306/pingjing-blog?useUnicode=true&characterEncoding=utf-8
     username: pingjing-blog
     password: LifSJTXGnE3LwewW
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
