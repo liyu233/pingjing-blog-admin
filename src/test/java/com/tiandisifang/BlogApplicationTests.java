@@ -1,4 +1,4 @@
-package com.tiandisifang.blog;
+package com.tiandisifang;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

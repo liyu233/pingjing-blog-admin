@@ -1,4 +1,4 @@
-package com.tiandisifang.blog;
+package com.tiandisifang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
