@@ -1,0 +1,25 @@
+server:
+  #端口号
+  port: 8090
+
+spring:
+  profiles:
+    active: dev
+
+mybatis:
+  typeAliasesPackage: com.tiandisifang.model
+  mapperLocations: classpath:mapper/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
+
+
+---
+#开发配置
+spring:
+  datasource:
+    url: jdbc:mysql://106.14.219.136:3306/pingjing-blog?useUnicode=true&characterEncoding=utf-8
+    username: pingjing-blog
+    password: LifSJTXGnE3LwewW
+    driver-class-name: com.mysql.jdbc.Driver
+    # 使用druid数据源
+    #type: com.alibaba.druid.pool.DruidDataSource
