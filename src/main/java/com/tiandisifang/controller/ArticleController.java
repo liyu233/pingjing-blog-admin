@@ -19,6 +19,7 @@ public class ArticleController {
     private ArticleService articleService;
 
     @ResponseBody
+    @CrossOrigin(origins = "*", maxAge = 3600)
     @PostMapping("list")
     public List<Article> getList(Integer article_type){
         System.out.println(article_type);
