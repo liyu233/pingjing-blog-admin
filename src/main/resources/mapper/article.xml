@@ -6,4 +6,9 @@
     <select id="getArticle"  resultType="java.util.HashMap">
         select * from article where article_state = "1"
     </select>
+    <update id="updateArticleContent">
+        update article set
+        article_content_html = #{obj.articleContentHtml}
+        where id = #{obj.id}
+    </update>
 </mapper>

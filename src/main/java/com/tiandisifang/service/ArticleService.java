@@ -14,4 +14,7 @@ public class ArticleService {
     public List<Article> getArticle() {
         return articleMapper.getArticle();
     };
+    public Integer updateArticle(Object obj){
+        return articleMapper.updateArticleContent(obj);
+    }
 }

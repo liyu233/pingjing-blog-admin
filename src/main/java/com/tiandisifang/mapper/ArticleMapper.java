@@ -9,4 +9,5 @@ import java.util.List;
 @Repository
 public interface ArticleMapper {
     List<Article> getArticle();
+    Integer updateArticleContent(Object obj);
 }
